@@ -30,16 +30,17 @@ Soy profesora de la UNET desde 2005, cuando ingresé como profesora interina, y 
 
 ### Proyectos de formación en Anyone AI (código privado)
 
-Durante el programa de Machine Learning Engineering desarrollé proyectos de principio a fin. El código no es público, pero estos son los temas y las técnicas:
+Durante el programa de Machine Learning Engineering desarrollé proyectos de principio a fin. El código no es público, pero en [**Anyoneai-ml-engineering**](https://github.com/gaudikarina/Anyoneai-ml-engineering) describo cada uno: problema, enfoque, herramientas y resultados.
 
 | Proyecto | Enfoque | Herramientas |
 |---|---|---|
 | Pipeline de datos de comercio electrónico | Ingeniería de datos y consultas SQL sobre datos de ventas | Python, SQL, pandas |
-| Riesgo crediticio (*Home Credit Default Risk*) | Clasificación binaria evaluada con AUC-ROC | pandas, scikit-learn |
+| Riesgo crediticio (*Home Credit Default Risk*) | Clasificación binaria; AUC-ROC de validación de 0,73 | pandas, scikit-learn |
 | API de clasificación de imágenes | Red convolucional preentrenada servida como servicio web | TensorFlow, FastAPI, Docker |
-| Clasificación de vehículos | Clasificación multiclase de 25 modelos de autos a partir de imágenes | Keras / TensorFlow |
-| Análisis de sentimiento | Preprocesamiento de texto y clasificación de reseñas de películas | Python, scikit-learn |
-| Proyecto final | Análisis exploratorio, extracción de variables desde documentos PDF y modelado predictivo sobre hospitalización de adultos mayores | Python, scikit-learn (SVM), Docker |
+| Clasificación de vehículos | Clasificación de 25 modelos de autos con ResNet50; 80 % de exactitud | Keras / TensorFlow |
+| Análisis de sentimiento | Preprocesamiento de texto y clasificación de reseñas; 88 % de exactitud | NLTK, spaCy, scikit-learn |
+| App con LLM para búsqueda de empleo | Asistente con RAG y agentes que cruza un CV con ofertas | LangChain, ChromaDB, Chainlit |
+| Proyecto final (en equipo) | Riesgo de hospitalización en adultos mayores; mi aporte: análisis exploratorio y selección de variables por filtrado | Python, scikit-learn, Docker, AWS |
 
 ### Áreas de interés
 
@@ -107,16 +108,17 @@ I have been a professor at UNET since 2005, when I joined as an interim lecturer
 
 ### Anyone AI training projects (private code)
 
-During the Machine Learning Engineering program I built end-to-end projects. The code is not public, but these are the topics and techniques:
+During the Machine Learning Engineering program I built end-to-end projects. The code is not public, but [**Anyoneai-ml-engineering**](https://github.com/gaudikarina/Anyoneai-ml-engineering) describes each one: problem, approach, tools and results (in Spanish).
 
 | Project | Focus | Tools |
 |---|---|---|
 | E-commerce data pipeline | Data engineering and SQL queries over sales data | Python, SQL, pandas |
-| Credit risk (*Home Credit Default Risk*) | Binary classification evaluated with ROC-AUC | pandas, scikit-learn |
+| Credit risk (*Home Credit Default Risk*) | Binary classification; 0.73 validation ROC-AUC | pandas, scikit-learn |
 | Image classification API | Pre-trained convolutional network served as a web service | TensorFlow, FastAPI, Docker |
-| Vehicle classification | Multi-class classification of 25 car models from images | Keras / TensorFlow |
-| Sentiment analysis | Text preprocessing and movie review classification | Python, scikit-learn |
-| Capstone project | Exploratory analysis, feature extraction from PDF documents and predictive modeling on elderly hospitalization | Python, scikit-learn (SVM), Docker |
+| Vehicle classification | 25 car models with ResNet50; 80 % test accuracy | Keras / TensorFlow |
+| Sentiment analysis | Text preprocessing and review classification; 88 % accuracy | NLTK, spaCy, scikit-learn |
+| LLM job-search app | RAG and agent-based assistant matching a resume to job offers | LangChain, ChromaDB, Chainlit |
+| Capstone (team project) | Elderly hospitalization risk; my part: exploratory analysis and filter-based feature selection | Python, scikit-learn, Docker, AWS |
 
 ### Research interests
 
